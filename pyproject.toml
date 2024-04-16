@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chromedriver-autoupdater"
+version = "1.0.0"
+description = ""
+authors = ["Dmitriy Kim <61637662+iriswolf@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
