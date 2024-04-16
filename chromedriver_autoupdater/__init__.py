@@ -76,7 +76,7 @@ class ChromeDriverUpdater:
         self.__selected_channel = version_channel
         self.__selected_platform = platform
 
-        self.__logger = logging.getLogger('chrome_driver_updater')
+        self.__logger = logging.getLogger(__name__)
         self.__current_version_fp = self.__dest_path.joinpath(self.__current_version_filename)
 
         if not self.__dest_path.is_dir() or self.__dest_path.is_file():
